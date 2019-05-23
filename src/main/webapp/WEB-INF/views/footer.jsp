@@ -1,11 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>home page</title>
-	<style type="text/css">
+ 	<style type="text/css">
 /* Style the header with a grey background and some padding */
 .header {
 	overflow: hidden;
@@ -60,22 +54,19 @@
 	}
 }
 </style>
+ </html>
 
-</head>
-<body>
 
-	<div class="header">
-	<center><h1>Online Booking</h1></center>
-	<table align="center">
-		
-		<tr>
-			<td><a   href="login">Login</a></td>
-			<td><a class="active" href="register">Create Account</a></td>
-			
-		</tr>
-		
-	</table>
-	</div>
-</body>
-<jsp:include page="WEB-INF/views/footer.jsp" />
-</html>
+<div id="footer">
+      <div id="logo"></div>
+      <div class="header">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          
+          <a href="index.html">Help</a>
+          <a href="examples.html">Feedback</a>
+          <a href="page.html">Privacy</a>
+          <a href="another_page.html">Terms & Conditions</a>
+        </ul>
+      </div>
+</div>

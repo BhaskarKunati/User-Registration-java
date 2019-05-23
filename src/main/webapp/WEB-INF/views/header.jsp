@@ -1,11 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>home page</title>
-	<style type="text/css">
+ 
+ <html>
+ 	<style type="text/css">
 /* Style the header with a grey background and some padding */
 .header {
 	overflow: hidden;
@@ -60,22 +55,17 @@
 	}
 }
 </style>
-
-</head>
-<body>
-
-	<div class="header">
-	<center><h1>Online Booking</h1></center>
-	<table align="center">
-		
-		<tr>
-			<td><a   href="login">Login</a></td>
-			<td><a class="active" href="register">Create Account</a></td>
-			
-		</tr>
-		
-	</table>
+ </html>
+ 
+ <div class="header">
+    <div  align="center">
+   	<img alt="logo" src="http://techmag.pk/wp-content/uploads/2016/01/online-booking.jpg" width="200px" height="150px">
+     <h1>Online Booking</h1> 
 	</div>
-</body>
-<jsp:include page="WEB-INF/views/footer.jsp" />
-</html>
+	<div  align="center">
+		<a class="active" href="#home">Home</a> 
+		<a href="#contact">Contact</a>
+		<a href="#about">About</a>
+	</div>
+</div>
+
